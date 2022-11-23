@@ -68,3 +68,38 @@
     color: white;
 }
 
+.demo {
+}
+
+.demo__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 680px auto;
+}
+.demo__block {
+}
+.demo__title {
+    font-weight: 500;
+    font-family: "Rubik";
+    color: #1a202c;
+    font-size: 44px;
+    line-height: 60px;
+}
+.demo__text {
+}
+.demo__image {
+}
+.demo__button {
+}
+
+
+.demo__form {
+    display: flex;
+}
+.demo__input {
+}
+
+.demo__button-form {
+    background-color: #E63756;
+    color: white;
+}
